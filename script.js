@@ -9,10 +9,8 @@
             }, 6000 + Math.random() * 3000); 
         }
 
-        
         setTimeout(enhanceWaveAnimation, 5000);
 
-        
         function animateChakra() {
             const chakra = document.querySelector('.chakra');
             setInterval(() => {
@@ -25,7 +23,6 @@
 
         setTimeout(animateChakra, 3000);
 
-        
         document.body.addEventListener('click', function(e) {
             for (let i = 0; i < 5; i++) {
                 setTimeout(() => {
@@ -54,7 +51,7 @@
             }, 1000);
         }
 
-        
+        // Add sparkle animation CSS
         const sparkleCSS = `
             @keyframes sparkleAnim {
                 0% {
