@@ -1,4 +1,4 @@
- * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -12,8 +12,6 @@
             overflow: hidden;
             position: relative;
         }
-
-
 
         .bg-decoration {
             position: absolute;
@@ -48,7 +46,7 @@
 
         .flag-container {
             position: relative;
-            margin: 3rem 0;
+            margin: 1rem 0;
             opacity: 0;
             animation: fadeInUp 1.5s ease-out 1s forwards;
         }
@@ -134,13 +132,12 @@
         }
 
         .signature {
-            position: absolute;
-            bottom: 30px;
-            right: 30px;
             font-size: 1rem;
-            color: rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 0.9);
             font-style: italic;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            margin-top: 2rem;
+            text-align: center;
             opacity: 0;
             animation: fadeIn 1s ease-out 3s forwards;
         }
@@ -195,6 +192,7 @@
             }
         }
 
+        /* Floating particles */
         .particle {
             position: absolute;
             width: 4px;
@@ -263,5 +261,10 @@
             .chakra {
                 width: 15px;
                 height: 15px;
+            }
+            
+            .signature {
+                margin-top: 1.5rem;
+                font-size: 0.9rem;
             }
         }
